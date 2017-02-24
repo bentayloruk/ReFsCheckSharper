@@ -4,6 +4,8 @@ open FsCheck
 open FsCheck.Xunit
 
 
+/// This is the single FsCheck property test in the project.
+
 [<Properties>]
 module ReproProperty =
 

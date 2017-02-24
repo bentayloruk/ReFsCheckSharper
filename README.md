@@ -2,7 +2,7 @@
 
 There appears to be an issue between VS 2017, ReSharper and FsCheck.Xunit tests.  The ReSharper test runner cannot "see" my FsCheck.Xunit tests in the latest VS and ReSharper RC.  However, they work fine together in VS 2015, ReSharper 10 and Matt Ellis' fantastic R# extension.
 
-The tests use the FsCheck.Xunit `Property` attribute.  This inherits form the Xunit `Fact` attribute.
+The tests use the FsCheck.Xunit `Property` attribute.  This inherits form the Xunit `Fact` attribute.  There is a [single test](https://github.com/bentayloruk/ReFsCheckSharper/blob/master/ReFsCheckSharper/ReproPropertyTest.fs) in this project.
 
 ## The setup that *can* run the FsCheck xUnit test:
 
